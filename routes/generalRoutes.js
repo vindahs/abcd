@@ -324,4 +324,16 @@ router.get('/217', function(req, res, next) {
 router.get('/218', function(req, res, next) {
     res.render('218', { title: 'Express' });
 });
+
+router.get('/xsi', function(req, res, next) {
+    res.render('xsi', { title: 'Express' });
+});
+
+router.get('/207', function(req, res, next) {
+    res.render('207', { title: 'Express' });
+});
+
+router.get('/221', function(req, res, next) {
+    res.render('221', { title: 'Express' });
+});
 module.exports = router;
